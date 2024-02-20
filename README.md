@@ -26,6 +26,8 @@ I want to clarify that I do not own any of the code in this project. This projec
     git clone https://github.com/dunc4009/Plurk-Backup-Master.git
 =======
 
+### Open a terminal or command prompt 開啟終端機或命令提示字元
+
 ### Install Python dependencies: 安裝 Python 相關套件    
     pip install -r requirements.txt
 
