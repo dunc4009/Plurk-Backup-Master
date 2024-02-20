@@ -9,7 +9,8 @@ Easily download all Plurks images, messages and replies posted by a specific Plu
 
 ### 安裝 Python 3.11+
 ### 下載程式碼
-    git clone https://github.com/dunc4009/Plurk-Backup-Master
+    
+    git clone https://github.com/dunc4009/Plurk-Backup-Mastergit
 =======
 
 ### 安裝 Python 相關套件    
