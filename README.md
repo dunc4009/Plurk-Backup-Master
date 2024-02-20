@@ -13,8 +13,6 @@ Easily download all Plurks images, messages and replies posted by a specific Plu
 <<<<<<< HEAD
     git clone https://github.com/dunc4009/Plurk-Backup-Master
 =======
-     git clone https://github.com/freelze/plurk-crawler.git
->>>>>>> acbda898080969afd055b8661b646326cc996865
 
 ### 安裝 Python 相關套件    
     pip install -r requirements.txt
