@@ -1,4 +1,4 @@
-# Plurk-backup-master
+# Plurk-Backup-Master
 
 Easily download all Plurks images, messages and replies posted by a specific Plurks user ( including images and message in the replies below ) from plurk.com
 
