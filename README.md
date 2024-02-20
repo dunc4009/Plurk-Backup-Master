@@ -31,7 +31,7 @@ I want to clarify that I do not own any of the code in this project. This projec
 
 ### Obtain Plurk API credentials as described in the original Plurk Crawler project. 
 
-# 註冊 Plurk 帳號：https://www.plurk.com/signup 
+### 註冊 Plurk 帳號：https://www.plurk.com/signup 
 
 ### 申請 API 服務：http://www.plurk.com/PlurkApp/ 
 
