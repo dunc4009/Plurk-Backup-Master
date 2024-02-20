@@ -1,16 +1,20 @@
-# plurk-crawler
+# Plurk-Backup-Master
 
-Download all images posted by Plurk users ( including images in the replies below ).
+Easily download all Plurks images, messages and replies posted by a specific Plurks user ( including images and message in the replies below ) from plurk.com
 
-下載任一噗浪使用者發過的所有圖片 ( 包含在下方回覆的圖片 )
+輕鬆下載特定 Plurks 用戶發布的所有 Plurks 圖像,訊息和回复
 
 
 ## 前置作業
 
-### 安裝 Python 3.9+
+### 安裝 Python 3.11+
 ### 下載程式碼
 
+<<<<<<< HEAD
     git clone https://github.com/dunc4009/Plurk-Backup-Master
+=======
+     git clone https://github.com/freelze/plurk-crawler.git
+>>>>>>> acbda898080969afd055b8661b646326cc996865
 
 ### 安裝 Python 相關套件    
     pip install -r requirements.txt
