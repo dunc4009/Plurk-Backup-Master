@@ -4,6 +4,15 @@ Easily download all Plurks images, messages and replies posted by a specific Plu
 
 輕鬆下載特定 Plurks 用戶發布的所有 Plurks 圖像,訊息和回复
 
+I edited the code using Chatgpt so that the script can now downloads all images, messages and replies  ( including images and message in the replies below ) not just only downlond images in the Plurk Crawler.
+Important:This enhancement was developed by ChatGPT.
+
+## Acknowledgment
+
+Most of this project is based on the original Plurk Crawler by [freelze](https://github.com/freelze). I express my sincere thanks to freelze for their contribution to the Plurk Crawler project.
+## Disclaimer
+
+I want to clarify that I do not own any of the code in this project. This project is based on the original Plurk Crawler by [freelze](https://github.com/freelze), and ChatGPT enhances it.
 
 ## 前置作業
 
