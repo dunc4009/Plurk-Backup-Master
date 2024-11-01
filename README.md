@@ -23,7 +23,7 @@ I want to clarify that I do not own any of the code in this project. This projec
 ### 安裝 Python 3.11+
 ### Clone the repository 下載程式碼
     
-    git clone https://github.com/dunddd2/Plurk-Backup-Master.git
+    git clone https://github.com/dundd2/Plurk-Backup-Master.git
 =======
 
 ### Open a terminal or command prompt 開啟終端機或命令提示字元
