@@ -8,7 +8,7 @@ Easily download all Plurks images, messages and replies posted by a specific Plu
 ![1](https://github.com/user-attachments/assets/91ac9c4f-1701-4eb3-8e32-b48544d7eff9)
 
 
-## V1.1 28/NOV/2024 Changes Made 更新內容 (Changes Made)
+## V1.1 28/NOV/2024 Changes Made 更新內容 
 
 1. Code Structure Changes 程式碼結構變更:
    - Separated utility functions into utils.py
@@ -37,7 +37,7 @@ Easily download all Plurks images, messages and replies posted by a specific Plu
    - Better separation of concerns
 
 
-## Acknowledgment 致謝 (Acknowledgment)
+## Acknowledgment 致謝 
 
 Most of this project is based on the original Plurk Crawler by [freelze](https://github.com/freelze). I express my sincere thanks to freelze for their contribution to the Plurk Crawler project.
 
@@ -68,9 +68,9 @@ I want to clarify that I do not own any of the code in this project. This projec
 
 ### Obtain Plurk API credentials as described in the original Plurk Crawler project.
 
-### Register for a Plurk account: 註冊 Plurk 帳號 (Register for a Plurk account): https://www.plurk.com/signup
+### Register for a Plurk account: 註冊 Plurk 帳號 : https://www.plurk.com/signup
 
-### Apply for API service 申請 API 服務 (Apply for API service): http://www.plurk.com/PlurkApp/
+### Apply for API service 申請 API 服務: http://www.plurk.com/PlurkApp/
 
 Please refer to Dada’s teaching text: https://dada.tw/2011/10/28/426/
 請參考 dada 的教學文: https://dada.tw/2011/10/28/426/ 
