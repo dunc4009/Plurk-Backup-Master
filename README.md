@@ -61,3 +61,9 @@ I want to clarify that I do not own any of the code in this project. This projec
 `username` 就是網址 http://www.plurk.com/使用者帳號 的 `使用者帳號`
 
 Replace username1, username2, etc., with the Plurk usernames whose images and messages you want to download.
+
+## Changes Made 更新內容
+
+* Removed duplicate function `getResponsesJob` in `plurk_crawler.py`.
+* Removed unused imports in `main.py` and `plurk_crawler.py`.
+* Updated the code to use the `utils.py` functions.
