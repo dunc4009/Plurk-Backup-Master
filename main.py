@@ -1,7 +1,4 @@
 import asyncio
-import os
-import sys
-import time
 from dotenv import load_dotenv
 from plurk_oauth import PlurkAPI
 from plurk_crawler import process_user
