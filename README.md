@@ -4,7 +4,8 @@ Easily download all Plurks images, messages and replies posted by a specific Plu
 輕鬆下載特定 Plurks 用戶發布的所有 Plurks 圖像,訊息和回复 
 
 ## Screenshot 螢幕截圖:
-![1](https://github.com/user-attachments/assets/5aab07ab-ef16-4522-a5ee-7bafa54fd8ef)
+![1](https://github.com/user-attachments/assets/91ac9c4f-1701-4eb3-8e32-b48544d7eff9)
+
 
 ## V1.1 28/NOV/2024 Changes Made 更新內容 (Changes Made)
 
