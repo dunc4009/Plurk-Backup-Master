@@ -66,13 +66,14 @@ I want to clarify that I do not own any of the code in this project. This projec
 
     pip install -r requirements.txt
 
-### Obtain Plurk API credentials as described in the original Plurk Crawler project.
+### Register for a Plurk account 註冊 Plurk 帳號:
+https://www.plurk.com/signup
 
-### Register for a Plurk account: 註冊 Plurk 帳號 : https://www.plurk.com/signup
-
-### Apply for API service 申請 API 服務: http://www.plurk.com/PlurkApp/
+### Apply for API service 申請 API 服務: 
+http://www.plurk.com/PlurkApp/
 
 Please refer to Dada’s teaching text: https://dada.tw/2011/10/28/426/
+
 請參考 dada 的教學文: https://dada.tw/2011/10/28/426/ 
 
 Get 取得 
