@@ -1,3 +1,6 @@
+import os
+import sys
+import time
 import asyncio
 from dotenv import load_dotenv
 from plurk_oauth import PlurkAPI

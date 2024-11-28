@@ -1,9 +1,26 @@
+import os
+import re
+import sys
+import time
+import calendar
+import base36
 import aiohttp
 import asyncio
+import aiomultiprocess
 from functools import partial
 from plurk_oauth import PlurkAPI
 from time import gmtime, strftime
-from utils import url_exists, download_image
+from dotenv import load_dotenv
+from utils import url_exists, download_image, url_validation_pattern as url_validation_regex
+
+# Load environment variables
+load_dotenv()
+
+# Get Plurk API credentials from environment variables
+CONSUMER_KEY = os.getenv("CONSUMER_KEY")
+CONSUMER_SECRET = os.getenv("CONSUMER_SECRET")
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
+ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
 
 async def getPublicPlurks(plurk, _id, time_Offset):
     try:
@@ -42,7 +59,7 @@ async def parsePostsJob(plurk, i, owner_id, userName, lowStandardFav):
                 if content[-3:] in supported_format:
                     if re.match(url_validation_regex, str(content[6:])) is None:
                         continue
-                    if not await urlExists(session, str(content[6:])):
+                    if not await url_exists(session, str(content[6:])):  # Changed urlExists to url_exists
                         continue
                     thisPostMediaCount += 1
                     imageNameWithoutPath = f"{fileNameTime}-plurk-{base36_plurk_id}-{thisPostMediaCount}-{owner_id_str}.{content[-3:]}"
@@ -86,7 +103,7 @@ async def getResponsesJob(plurk, session, pID, owner_id, userName):
                 if re.match(url_validation_regex, responseLink) is None:
                     print(f"Invalid URL: {responseLink}")
                     continue
-                if not await urlExists(session, responseLink):
+                if not await url_exists(session, responseLink):  # Changed urlExists to url_exists
                     print(f"URL does not exist: {responseLink}")
                     continue
                 thisPostMediaCount += 1
